@@ -1,0 +1,19 @@
+{
+  "name": "integers-compressed-set",
+  "version": "1.0.0",
+  "description": "Compact serialization for integer sets (1–300).",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "format": "prettier --write \"**/*.{js,json}\" --ignore-path .gitignore"
+  },
+  "author": "ifedyshin",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
