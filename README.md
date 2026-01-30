@@ -17,6 +17,6 @@ npm install integers-compressed-set
 import { serialize, deserialize } from "integers-compressed-set";
 
 const data = [1, 3, 7, 10, 42];
-const encoded = serialize(data);
-const decoded = deserialize(encoded);
+const encoded = serialize(data); // 1243W
+const decoded = deserialize(encoded); // [1, 3, 7, 10, 42]
 ```
